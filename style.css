@@ -1,0 +1,118 @@
+body{
+    background-color:#1D1D23;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    color: white;
+}
+.timer_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+}
+input{
+    width: 50px;
+    background-color: #34344A;
+    border: none;
+    margin-inline: auto;
+    border-bottom: 3px solid white;
+    color: white;
+}
+input[type="text"]
+{
+    font-size:24px;
+    text-align: center;
+}
+b{
+    margin-top: 1px;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+.card_timer{
+    border-radius: 20px;
+    width: 50vw;
+    height: 13.5vh;
+    background-color: #34344A;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.primary_button{
+    background-color: #F0F757 ;
+    border: none;
+    border-radius:20px;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.current_timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#39393E;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.active_timers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:10px;
+    
+}
+.time_up{
+    display: flex;
+    background-color: #F0F757;
+}
+.card_timeup{
+    border-radius: 20px;
+    width: 50vw;
+    height: 13.5vh;
+    background-color:#F0F757;
+    align-items: center;
+    color: #34344A;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 25px;
+}
+.stop{
+    background-color: #34344A ;
+    border: none;
+    border-radius:20px;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 60px;
+    color:white;
+}
+h2{
+    position: relative;
+    left: 70px;
+    font-size: 30px;
+}
+.time_value{
+    position: relative;
+    top: 5px;
+    font-size: 28px;
+    width: 30px;
+    margin-inline:10px ;
+}
+.d-flex{
+    display: flex;
+    margin-left: 60px;
+}

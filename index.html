@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Timer App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <head>
+      <center><h1 class="heading">Multiple Timer App</h1></center>
+    </head>
+
+    <section class="timer_input">
+      <div class="card_timer">
+        <span>Set Timer :</span>
+
+        <form onsubmit="submitForm(event)">
+          <input id="hours" type="text" placeholder="hh" required /><b>:</b>
+          <input id="minutes" type="text" placeholder="mm" required /><b>:</b>
+          <input id="sec" type="text" placeholder="ss" required />
+          <button class="primary_button" type="submit">Set</button>
+        </form>
+      </div>
+
+      <div class="current_timer">Current Timers</div>
+    </section>
+
+    <section class="active_timers" id="active_timer">
+       
+          
+
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
